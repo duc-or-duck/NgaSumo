@@ -35,7 +35,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunito.className}>{children}</body>
-      <Script src='./app/decide.js'></Script>
     </html>
   )
 }
